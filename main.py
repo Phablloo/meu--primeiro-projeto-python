@@ -12,16 +12,16 @@ numero2 = int(input())
 
 if operador == '+':
     resultado = numero1 + numero2
-    print(resultado)
+    print('resultado:', resultado)
 elif operador == '-':
     resultado = numero1 - numero2
-    print(resultado)
+    print('resultado:', resultado)
 elif operador == '*':
     resultado = numero1 * numero2
-    print(resultado)
+    print('resultado:', resultado)
 elif operador == '/':
     resultado = numero1 / numero2
-    print(resultado)
+    print('resultado:', resultado)
 else:
     print('Operador incorreto')
 
